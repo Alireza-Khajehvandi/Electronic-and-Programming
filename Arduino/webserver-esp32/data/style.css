@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: #342628;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+
+
+
+nav {
+    background-color: #FEAA00;
+    padding: 25px;
+    
+}
+.nav-left {
+    text-align: left;
+}
+.nav-right {
+    text-align: right;
+}
+.nav-center {
+    text-align: center;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+.column-left {
+    text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
+    background-color: #342628;
+    padding: 0.1px;
+}
+section a:link, a:visited {
+    background-color: #342628;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+section a:hover, a:active {
+    background-color: #FEAA00;
+}
+
+.section-left {
+    text-align: left;
+}
+.section-right {
+    text-align: right;
+}
+.section-center {
+    text-align: center;
+}
+article {
+    background-color: #342628;
+}
+.div-left {
+    text-align: left;
+}
+.dov-right {
+    text-align: right;
+}
+.div-center {
+    text-align: center;
+}
+.div-font {
+    font-family: Cursive;
+    font-size: 20px;
+}
+.div-color {
+    background-color: #FEAA00;
+}
+
+
+/* a:link, a:visited {
+    background-color: #000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: red;
+} */
+
+.button {
+    background-color: #788402;
+    border: none;
+    border-radius: 5px;
+    border-color: yellow;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+.button-on:hover {
+    background-color: #008000;
+    border: none;
+    border-radius: 5px;
+    border-color: yellow;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+.button-off:hover {
+    background-color: #bf2c34;
+    border: none;
+    border-radius: 5px;
+    border-color: yellow;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+.afont {
+    font-family: Cursive;
+}
+.afont-size {
+    font-family: Cursive;
+    font-size: 30px;
+}
