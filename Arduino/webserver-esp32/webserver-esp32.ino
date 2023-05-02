@@ -1,7 +1,3 @@
-/*********
-  Rui Santos
-  Complete project details at https://randomnerdtutorials.com  
-*********/
 
 // Import required libraries
 #include "WiFi.h"
@@ -9,8 +5,8 @@
 #include "SPIFFS.h"
 
 // Replace with your network credentials
-const char* ssid = "Agfaco";
-const char* password = "agfaagfa";
+const char* ssid = "your-ssid";
+const char* password = "your-password";
 int cnt=0;
 // Set LED GPIO
 const int ledPin = 2;

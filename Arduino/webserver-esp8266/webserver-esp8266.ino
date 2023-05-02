@@ -1,7 +1,3 @@
-/*********
-  Rui Santos
-  Complete project details at https://randomnerdtutorials.com  
-*********/
 
 // Import required libraries
 #include <ESP8266WiFi.h>
@@ -10,8 +6,8 @@
 #include <FS.h>
 #include <Wire.h>
 // Replace with your network credentials
-const char* ssid = "TP-LINK";
-const char* password = "69776072901044";
+const char* ssid = "your-ssid";
+const char* password = "your-password";
 int cnt=0;
 // Set LED GPIO
 const int ledPin = 2;
