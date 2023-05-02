@@ -1,5 +1,5 @@
-# ESP8266
-## How to setup Webserver with ESP8266
+# ESP32
+## How to setup Webserver with ESP32
 
 
 ### You can download my code and run your module and enjoy it.
@@ -8,4 +8,4 @@
 
 #### if you have any questions or any advice for me, just tell me, and I will be happy about it. thank you.
 
-[resources](https://randomnerdtutorials.com/esp8266-web-server-spiffs-nodemcu/)
+[resources](https://randomnerdtutorials.com/esp32-web-server-spiffs-spi-flash-file-system/)
